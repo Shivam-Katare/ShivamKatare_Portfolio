@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Katare's portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <h3 class="name">Shivam Katare</h3>
+        <p class="post">Full-Stack Developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Shivam Katare</span></h1>
+    <p>I am 3rd year under graduate student studying at APS University. <br><br>
+        🔵I am interested in <b class="abouttext">web Development</b><br>
+        🔵and recently started to learn and understand the concepts of DevOps and looking forward to learning more new things.<br><br>
+        🔵I have skills of -  <b class="aboutskills">HTML, CSS, JS, BootStrap, JAVA, DSA, Github, NodeJs, MongoDB, Mongoose, EJS, ReactJS, </b><br><br>and more than a little bit of knowledge of Python.
+        
+        Always eager to experiment with new things and excited to try them out. I love to **gain **and share knowledge with others.</p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Shivam Katare </h3>
+        <h3> <span> age : </span> 20 </h3>
+        <h3> <span> qualification : </span> studying B.C.A  </h3>
+        <h3> <span> language : </span> English </h3>
+        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    </div>
+
+    <div class="counter">
+
+        <div class="box">
+            <span>Project</span>
+            <h3>Currently Working on Login Form Page</h3>
+        </div>
+
+        <div class="box">
+            <span>Learning</span>
+            <h3>Currently Learning about RESTful API</h3>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-school"></i>
+        <span>Year of completion: 2017</span>
+        <h3>Class 10th</h3>
+        <p>Rajhans Senior Secondary School(CBSE board) <br> CGPA: 8.00/10  </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-school"></i>
+        <span>Year of completion: 2019</span>
+        <h3>Class 12th</h3>
+        <p>Rajhans Senior Secondary School(CBSE board)<br> Percentage: 61.00% </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-university"></i>
+        <span>2019 - 2022</span>
+        <h3> Bachelor of Computer Applications (BCA), Computer Science<br></h3>
+        <p>Awadhesh Pratap Singh University</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-code"></i>
+        <span>2022</span>
+        <h3>Full Stack Development Udemy Course</h3>
+        <p>21 March 2022 - present </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-code"></i>
+        <span>2020</span>
+        <h3>Front end development</h3>
+        <p>I have the knowledge of Html, CSS, JS, EJS, React, Bootstrap and Github, and also have the experience of making projects</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-terminal"></i>
+        <span>2020-present</span>
+        <h3>Programming Languages</h3>
+        <p>I started learning programming from 2020 and, have the knowledge of Java, Python,and more than little bit knowledge of DSA</p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> my <span>Projects</span> </h1>
+
+<div class="box-container">
+<!-- --------------------------------VIDEO 1-------------------------------          -->
+    <div class="box">
+        <a href="#" class="projects" onclick="toggleVideo();"> Watch Demo<br>(Drummy Drum)</a><br>
+        <a href="https://github.com/Shivam-Katare/Drummy-Drum/tree/master" class="sourceCode"> View Source Code</a>
+    </div>
+
+    <div class="trailer">
+        <video src="./videos/drum.mp4" controls="true"></video>
+        <img src="close.png" class="close" onclick="toggleVideo()">
+    </div>
+<!-- ------------------------------------VIDEO 2--------------------------------------------         -->
+    <div class="box">
+        <a href="#" class="projects" onclick="toggleVideo2();"> Watch Demo<br>(Weather React)</a><br>
+        <a href="https://github.com/Shivam-Katare/Weather-React-Project" class="sourceCode"> View Source Code</a>
+    </div>
+
+    <div class="trailer2">
+        <video src="./videos/weather_react.mp4" controls="true" class="video2"></video>
+        <img src="close.png" class="close" onclick="toggleVideo2()">
+    </div>
+
+<!-- ------------------------------------VIDEO 3--------------------------------------------         -->
+    <div class="box">
+        <a href="#" class="projects" onclick="toggleVideo3();"> Watch Demo<br>(Random Quotes)</a><br>
+        <a href="https://github.com/Shivam-Katare/Dynamic-Quote" class="sourceCode"> View Source Code</a>
+    </div>
+
+    <div class="trailer3">
+        <video src="./videos/quote.mp4" controls="true" class="video3"></video>
+        <img src="close.png" class="close" onclick="toggleVideo3()">
+    </div>
+
+<!-- ------------------------------------VIDEO 4--------------------------------------------         -->
+    <div class="box">
+        <a href="#" class="projects" onclick="toggleVideo4();"> Watch Demo<br>(Movie React)</a><br>
+        <a href="https://github.com/Shivam-Katare/React-Movie-SEE" class="sourceCode"> View Source Code</a>
+    </div>
+
+    <div class="trailer4">
+        <video src="./videos/movie.mp4" controls="true" class="video4"></video>
+        <img src="close.png" class="close" onclick="toggleVideo4()">
+    </div>
+
+<!-- ------------------------------------VIDEO 5--------------------------------------------         -->
+    <div class="box">
+        <a href="#" class="projects" onclick="toggleVideo5();"> Watch Demo<br>(Snake Game)</a><br>
+        <a href="https://github.com/Shivam-Katare/JavaScript-Snake" class="sourceCode"> View Source Code</a>
+    </div>
+
+    <div class="trailer5">
+        <video src="./videos/snake.mp4" controls="true" class="video5"></video>
+        <img src="close.png" class="close" onclick="toggleVideo5()">
+    </div>
+
+<!-- ------------------------------------VIDEO 6--------------------------------------------         -->
+    <div class="box">
+        <a href="#" class="projects" onclick="toggleVideo6();"> Watch Demo<br>(Blog Project)</a><br>
+        <a href="https://github.com/Shivam-Katare/Daily-Dairy" class="sourceCode"> View Source Code</a>
+    </div>
+
+    <div class="trailer6">
+        <video src="./videos/dairy.mp4" controls="true" class="video5"></video>
+        <img src="close.png" class="close" onclick="toggleVideo6()">
+    </div>
+<!-- ------------------------------------VIDEO 7--------------------------------------------         -->
+    <div class="box">
+        <a href="https://github.com/Shivam-Katare?tab=repositories" class="moreProjects"></a><br>
+    </div>
+
+</div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i><a href="mailto:katare27451@gmail.com" class="contactLinks">Mail me</a></h3>
+            <h3> <i class="fab fa-github"></i><a href="https://github.com/Shivam-Katare" class="contactLinks">Github</a></h3>
+            <h3> <i class="fas fa-globe"></i><a href="https://www.showwcase.com/shivam-katare" class="contactLinks">ShowwCase</a></h3>
+            <h3> <i class="fab fa-twitter"></i><a href="https://twitter.com/Shivamkatare_27" class="contactLinks">Twitter</a></h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> Rewa (M.P.), India </h3>
+        </div>
+    </div>
+    
+    <!-- <form action="">
+
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="text" placeholder="project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+    </form> -->
+    
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+<script>
+function toggleVideo(){
+const trailer = document.querySelector('.trailer');
+const video = document.querySelector('video');
+trailer.classList.toggle('active')
+video.currentTime = 0;
+video.pause();
+}
+function toggleVideo2(){
+const trailer2 = document.querySelector('.trailer2');
+const video2 = document.querySelector('.video2');
+trailer2.classList.toggle('active')
+video2.currentTime = 0;
+video2.pause();
+}
+function toggleVideo3(){
+const trailer3 = document.querySelector('.trailer3');
+const video3 = document.querySelector('.video3');
+trailer3.classList.toggle('active')
+video3.currentTime = 0;
+video3.pause();
+}
+function toggleVideo4(){
+const trailer4 = document.querySelector('.trailer4');
+const video4 = document.querySelector('.video4');
+trailer4.classList.toggle('active')
+video4.currentTime = 0;
+video4.pause();
+}
+function toggleVideo5(){
+const trailer5 = document.querySelector('.trailer5');
+const video5 = document.querySelector('.video5');
+trailer5.classList.toggle('active')
+video5.currentTime = 0;
+video5.pause();
+}
+function toggleVideo6(){
+const trailer6 = document.querySelector('.trailer6');
+const video6 = document.querySelector('.video6');
+trailer6.classList.toggle('active')
+video6.currentTime = 0;
+video6.pause();
+}
+</script>
+
+</body>
+</html>

@@ -421,7 +421,7 @@ border:2px solid black;
     visibility: hidden;
     opacity: 0;
 }
-.trailer3 , .trailer4, .trailer5, .trailer6{
+.trailer3 , .trailer4, .trailer5, .trailer6, .trailer7{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -466,6 +466,11 @@ border:2px solid black;
     outline: none;
 }
 .video6{
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+.video7{
     position: relative;
     max-width: 900px;
     outline: none;
